@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1b69076b.css",
+    "main.js": "/static/js/main.9346b118.js",
+    "static/media/phc_logo.jpeg": "/static/media/phc_logo.fd11991c84019fa13551.jpeg",
+    "index.html": "/index.html",
+    "main.1b69076b.css.map": "/static/css/main.1b69076b.css.map",
+    "main.9346b118.js.map": "/static/js/main.9346b118.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b69076b.css",
+    "static/js/main.9346b118.js"
+  ]
+}
