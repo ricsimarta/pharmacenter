@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/pharmacenter/static/css/main.2985e63a.css",
-    "main.js": "/pharmacenter/static/js/main.e4f41f3d.js",
+    "main.css": "/pharmacenter/static/css/main.819dd4a2.css",
+    "main.js": "/pharmacenter/static/js/main.77a774dc.js",
     "static/media/phc_logo.jpeg": "/pharmacenter/static/media/phc_logo.fd11991c84019fa13551.jpeg",
     "index.html": "/pharmacenter/index.html",
-    "main.2985e63a.css.map": "/pharmacenter/static/css/main.2985e63a.css.map",
-    "main.e4f41f3d.js.map": "/pharmacenter/static/js/main.e4f41f3d.js.map"
+    "main.819dd4a2.css.map": "/pharmacenter/static/css/main.819dd4a2.css.map",
+    "main.77a774dc.js.map": "/pharmacenter/static/js/main.77a774dc.js.map"
   },
   "entrypoints": [
-    "static/css/main.2985e63a.css",
-    "static/js/main.e4f41f3d.js"
+    "static/css/main.819dd4a2.css",
+    "static/js/main.77a774dc.js"
   ]
 }
