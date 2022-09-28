@@ -1,14 +1,21 @@
 {
   "files": {
-    "main.css": "/pharmacenter/static/css/main.576ce32e.css",
-    "main.js": "/pharmacenter/static/js/main.9c07bb35.js",
+    "main.css": "/pharmacenter/static/css/main.95e6b394.css",
+    "main.js": "/pharmacenter/static/js/main.f2093e61.js",
+    "static/media/testimonal_shire.png": "/pharmacenter/static/media/testimonal_shire.ec97a00e9f380e803bc3.png",
+    "static/media/NKFIA_portrait.png": "/pharmacenter/static/media/NKFIA_portrait.f4f4f6d930600dd63bd5.png",
+    "static/media/logo_shire.png": "/pharmacenter/static/media/logo_shire.c2f6f5e7204060e54e00.png",
+    "static/media/logo_dr_pfleger.png": "/pharmacenter/static/media/logo_dr_pfleger.1f70a79f384ee422a2f9.png",
+    "static/media/logo_hospira.png": "/pharmacenter/static/media/logo_hospira.d10dcb60640bb46de0c6.png",
+    "static/media/logo_PTC.png": "/pharmacenter/static/media/logo_PTC.39cc2cbcaf20bf669d67.png",
     "static/media/phc_logo.jpeg": "/pharmacenter/static/media/phc_logo.fd11991c84019fa13551.jpeg",
+    "static/media/logo_tecnimede.png": "/pharmacenter/static/media/logo_tecnimede.8500c7a8e42fb9231767.png",
     "index.html": "/pharmacenter/index.html",
-    "main.576ce32e.css.map": "/pharmacenter/static/css/main.576ce32e.css.map",
-    "main.9c07bb35.js.map": "/pharmacenter/static/js/main.9c07bb35.js.map"
+    "main.95e6b394.css.map": "/pharmacenter/static/css/main.95e6b394.css.map",
+    "main.f2093e61.js.map": "/pharmacenter/static/js/main.f2093e61.js.map"
   },
   "entrypoints": [
-    "static/css/main.576ce32e.css",
-    "static/js/main.9c07bb35.js"
+    "static/css/main.95e6b394.css",
+    "static/js/main.f2093e61.js"
   ]
 }
