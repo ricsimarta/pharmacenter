@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/pharmacenter/static/css/main.95e6b394.css",
-    "main.js": "/pharmacenter/static/js/main.f2093e61.js",
+    "main.css": "/pharmacenter/static/css/main.a534fb71.css",
+    "main.js": "/pharmacenter/static/js/main.dff70df0.js",
     "static/media/testimonal_shire.png": "/pharmacenter/static/media/testimonal_shire.ec97a00e9f380e803bc3.png",
+    "static/media/testimonal_dr_pfleger.png": "/pharmacenter/static/media/testimonal_dr_pfleger.33616b44a8178e1f301f.png",
+    "static/media/testimonal_hospira.png": "/pharmacenter/static/media/testimonal_hospira.5d01d0132b3d814ef13b.png",
+    "static/media/testimonal_ptc.png": "/pharmacenter/static/media/testimonal_ptc.45acb99f7ac2c12650a2.png",
     "static/media/NKFIA_portrait.png": "/pharmacenter/static/media/NKFIA_portrait.f4f4f6d930600dd63bd5.png",
+    "static/media/testimonal_tecnimede.png": "/pharmacenter/static/media/testimonal_tecnimede.a761cdfe304c5daadfc9.png",
     "static/media/logo_shire.png": "/pharmacenter/static/media/logo_shire.c2f6f5e7204060e54e00.png",
     "static/media/logo_dr_pfleger.png": "/pharmacenter/static/media/logo_dr_pfleger.1f70a79f384ee422a2f9.png",
     "static/media/logo_hospira.png": "/pharmacenter/static/media/logo_hospira.d10dcb60640bb46de0c6.png",
@@ -11,11 +15,11 @@
     "static/media/phc_logo.jpeg": "/pharmacenter/static/media/phc_logo.fd11991c84019fa13551.jpeg",
     "static/media/logo_tecnimede.png": "/pharmacenter/static/media/logo_tecnimede.8500c7a8e42fb9231767.png",
     "index.html": "/pharmacenter/index.html",
-    "main.95e6b394.css.map": "/pharmacenter/static/css/main.95e6b394.css.map",
-    "main.f2093e61.js.map": "/pharmacenter/static/js/main.f2093e61.js.map"
+    "main.a534fb71.css.map": "/pharmacenter/static/css/main.a534fb71.css.map",
+    "main.dff70df0.js.map": "/pharmacenter/static/js/main.dff70df0.js.map"
   },
   "entrypoints": [
-    "static/css/main.95e6b394.css",
-    "static/js/main.f2093e61.js"
+    "static/css/main.a534fb71.css",
+    "static/js/main.dff70df0.js"
   ]
 }
