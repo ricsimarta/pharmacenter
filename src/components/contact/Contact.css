@@ -1,0 +1,215 @@
+.contact-container {
+  margin-top: 100px;
+  padding-top: 50px;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.contact-box {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 60px;
+}
+
+.maps {
+  width: 100%;
+  max-width: 500px;
+  height: calc(100vw - 160px);
+  max-height: 500px;
+  border: 1px solid black;
+}
+.maps iframe {
+  width: 100%;
+  height: 100%;
+}
+
+div.contacts {
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+div.contacts div.contact {
+  -webkit-animation: appear 0.5s ease;
+          animation: appear 0.5s ease;
+}
+@-webkit-keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes appear {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+div.contacts div.contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding-left: 15px;
+  position: relative;
+}
+div.contacts div.contact-list p::before {
+  content: attr(serial);
+  position: absolute;
+  left: 0;
+}
+div.contacts div.contact {
+  min-width: 280px;
+  min-height: 360px;
+}
+div.contacts div.contact p.subtitle {
+  margin: 15px 0 0;
+  font-size: 20px;
+  font-weight: bold;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: relative;
+}
+div.contacts div.contact p.subtitle::after {
+  content: "";
+  width: 100%;
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+}
+div.contacts div.contact p.subtitle.email1 {
+  margin-bottom: 0;
+}
+div.contacts div.contact p.subtitle.email2 {
+  margin-top: 0;
+  font-style: italic;
+}
+div.contacts p.contact.text {
+  margin: 2px 0;
+  padding-left: 5px;
+}
+div.contacts p.contact.text a {
+  color: rgb(72, 123, 124);
+  text-decoration: underline;
+}
+div.contacts p.contact.text.phone {
+  color: rgb(72, 123, 124);
+}
+div.contacts p.contact.text svg {
+  color: rgb(72, 123, 124);
+  position: relative;
+  top: 6px;
+  margin-right: 3px;
+}
+
+.captcha {
+  width: 100%;
+  min-height: 360px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  padding-top: 50px;
+}
+.captcha > div {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.captcha p {
+  display: inline;
+}
+.captcha p.captcha-text {
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+.captcha p.captcha-text.hun {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.captcha input {
+  display: inline;
+  width: 50px;
+  padding: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  font-size: 1.1em;
+  text-align: center;
+}
+.captcha button {
+  width: 80px;
+  padding: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  font-size: 1.1em;
+}
+.captcha button.refresh {
+  width: 30px;
+  height: 30px;
+  padding-top: 4px;
+  border: 0;
+}
+.captcha .captcha-error {
+  color: rgb(238, 46, 46);
+  border: 1px solid rgb(238, 46, 46);
+  background-color: rgba(238, 46, 46, 0.1);
+  padding: 5px 10px;
+  width: 350px;
+  text-align: center;
+  opacity: 1;
+  -webkit-animation: error 4s ease;
+          animation: error 4s ease;
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+
+@-webkit-keyframes error {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes error {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+input[type=number] {
+  -moz-appearance: textfield;
+  -webkit-appearance: textfield;
+          appearance: textfield;
+}/*# sourceMappingURL=Contact.css.map */

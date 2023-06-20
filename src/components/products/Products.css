@@ -1,0 +1,19 @@
+ul.products {
+  margin: 2px 0 20px;
+  padding-left: 30px;
+}
+ul.products li {
+  margin-bottom: 3px;
+}
+
+div.products {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+div.products ul {
+  margin-left: 20px;
+}
+
+p.text.products {
+  margin-top: 70px;
+}/*# sourceMappingURL=Products.css.map */

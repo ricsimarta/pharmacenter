@@ -1,0 +1,142 @@
+/* --- start of CSS reset --- */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: none;
+  box-sizing: border-box;
+  background: transparent;
+  font-family: inherit;
+}
+
+a {
+  text-decoration: none;
+}
+
+a img {
+  border: none;
+}
+
+button,
+a {
+  cursor: pointer;
+  color: inherit;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+textarea,
+select {
+  appearance: none !important;
+  border-radius: 0;
+}
+
+/* --- end of CSS reset --- */
+
+html {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  font-family: 'Dosis', sans-serif;
+
+  // scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  width: 100vw;
+  padding: 0 40px;
+  font-size: 19px;
+
+  -webkit-font-smoothing: antialiased;
+}
+
+#root {
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 100px;
+}
+
+main {
+  max-width: 1200px;
+  width: 100%;
+
+  margin: 0 auto;
+  padding: 30px 40px 80px;
+
+  background-color: white;
+
+  &.loaded {
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  }
+}
+
+h1.title {
+  width: 100%;
+  min-height: 200px;
+  background-color: rgb(72, 123, 124);
+  margin: 55px 0;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  font-size: clamp(2em, 8vw, 3em);
+  text-shadow: 3px 3px #000;
+}
+
+p.text {
+
+  margin: 20px 0;
+}
+
+.content {
+  width: 100%;
+  max-width: 1200px;
+
+  margin-top: 50px;
+
+  animation: slide-in 0.3s ease;
+
+  @keyframes slide-in {
+    0% {
+      margin-top: 100vh;
+    }
+
+    100% {
+      margin-top: 50px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1060px) {
+  body {
+    padding: 0;
+  }
+
+  main.loaded {
+    border: 0;
+  }
+
+  h1.title {
+    width: calc(100% + 80px);
+    position: relative;
+    left: -40px;
+  }
+}
+
+/* @media only screen and (max-width: 600px) {
+  h1.title {
+    text-shadow: 1.5px 1.5px #000;
+  }
+} */

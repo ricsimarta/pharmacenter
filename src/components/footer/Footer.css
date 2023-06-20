@@ -1,0 +1,22 @@
+footer {
+  display: none;
+  width: 100vw;
+  height: 30px;
+  position: absolute;
+  bottom: 0;
+  left: -40px;
+  background-color: rgb(72, 123, 124);
+  color: #fff;
+  font-size: 0.8em;
+}
+footer.loaded {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 1060px) {
+  footer {
+    left: 0;
+  }
+}/*# sourceMappingURL=Footer.css.map */
