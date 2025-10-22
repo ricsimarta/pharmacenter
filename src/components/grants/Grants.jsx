@@ -19,7 +19,7 @@ function Grants({ loaded, showMenu, setShowMenu, currentActive, setCurrentActive
           <span>Pharmacenter Hungary Kft célja a magyar betegek költséghatékony és megfelelő gyógyszerellátásának biztosítása, kiemelten az onkológia terápiás területeken. További célkitűzés az export piacokra történő forgalmazási gyógyszer forgalmazási jogok megszerzése és a külföldi piacokra történő bérgyártatás.</span>
           <span>Ezekhez a célokhoz szükséges szakmai tudást és K+F kereteit a cég az elmúlt évtizedek alatt egyre inkább a saját termékek kifejlesztésére szánta, azzal a céllal, hogy a magyarországi gyógyszerellátás folytonos biztosítása mellett az export piacra is nagyobb hangsúlyt fektethessen. Az export piac megszerzését a cég mind cégstabilitás, mind nemzet-stratégiailag kiemelt fontosságú feladatként kezeli.</span>
           <span>Projektünkben két onkológiai, ún. generikus gyógyszer üzemkész kifejlesztését tűztük ki célul. A fejlesztendő gyógyszerekkel egyenértékű gyógyszerek széles körben használatosak nemcsak Magyarországon, de az Európai Unió területén és a világ más részein is, hiszen ezek a gyógyszerek széleskörűen ismert és használt terápiás protokollok elengedhetetlen alkotórészei. Projektünk eredményének csak kevés versenytársa van, és az is csak jóval (kb. 25 vagy akár 400%-kal) drágábban érhető el.</span>
-          <span><strong>A Projekt tervezett befejezési dátuma:</strong> 2024.09.30.</span>
+          <span><strong>A Projekt tényleges befejezési dátuma:</strong> 2025.09.30.</span>
           <span><strong>Projekt azonosító száma:</strong> 2020-1.1.2-PIACI-KFI-2021-00214</span>
         </p>
       </div>
